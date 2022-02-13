@@ -1,0 +1,26 @@
+{
+  "name": "rest-apk-package",
+  "version": "1.0.0",
+  "homepage": "https://hadji10/github.oi",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
